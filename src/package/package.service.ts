@@ -1,26 +1,38 @@
 import { Injectable } from '@nestjs/common';
-import { CreatePackageDto } from './dto/create-package.dto';
-import { UpdatePackageDto } from './dto/update-package.dto';
+
+import axios from 'axios';
+import { Package } from './entities/package.entity';
+import { Observable } from 'rxjs';
+
+
+const getCatalogUrl = "https://patic457.000webhostapp.com/api/getcatalog.php";
+const getCategorygUrl = "https://patic457.000webhostapp.com/api/getcategory.php";
+const getCategorygUrl2 = "https://patic457.000webhostapp.com/api/getcategory.php";
 
 @Injectable()
 export class PackageService {
-  // create(createPackageDto: CreatePackageDto) {
-  //   return 'This action adds a new package';
+
+  // findAll() {
+  //   return `This action returns all package`;
   // }
 
-  findAll() {
-    return `This action returns all package`;
+  // findOne(id: number) {
+  //   return `This action returns a #${id} package`;
+  // }
+
+  async findAll() {
+
+
+    try {
+      const packageModel = new Package();
+      const response = await axios.get(getCatalogUrl).
+      return response;
+    } catch (error) {
+
+    }
+
+
+
+
   }
-
-  findOne(id: number) {
-    return `This action returns a #${id} package`;
-  }
-
-  // update(id: number, updatePackageDto: UpdatePackageDto) {
-  //   return `This action updates a #${id} package`;
-  // }
-
-  // remove(id: number) {
-  //   return `This action removes a #${id} package`;
-  // }
 }

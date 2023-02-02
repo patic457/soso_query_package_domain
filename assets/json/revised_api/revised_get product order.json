@@ -1,0 +1,95 @@
+{
+  "id": "1",
+  // "href": "https://host:port/productOrderingManagement/v5/productOrder/1",
+  "category": "B2C package order",
+  "completionDate": "2019-05-02T08:13:59.506Z",
+  "description": "",
+  "expectedCompletionDate": "2019-05-02T08:13:59.506Z",
+  "creationDate": "2019-04-30T08:13:59.506Z",
+  "priority": "1",
+  "requestedStartDate": "2019-05-03T08:13:59.506Z",
+  "channel": [
+    {
+      "id": "1",
+      "role": "Used channel for order capture",
+      "name": "Online chanel"
+    }
+  ],
+  "productOrderItem": [
+    {
+      "id": "120",
+      "quantity": 1,
+      "action": "add",
+      // "billingAccount": {
+      //   "id": "1513",
+      //   "href": "https://host:port/billingAccountManagement/v5/billingAccount/1513",
+      //   "@type": "BillingAccountRef"
+      // },
+      "itemPrice": [
+        {
+          "description": "Package 5G Max Speed plan monthly fee",
+          "name": "MonthlyFee",
+          "priceType": "recurring",
+          "@type": "OrderPrice",
+          "recurringChargePeriod": "month",
+          "price": {
+            "taxRate": 0,
+            "@type": "Price",
+            "dutyFreeAmount": {
+              "unit": "THB",
+              "value": 699,
+              // "@type": "Money"
+            },
+            "taxIncludedAmount": {
+              "unit": "THB",
+              "value": 747.93,
+              // "@type": "Money"
+            }
+          }
+        }
+      ],
+      "itemTerm": [
+        {
+          "description": "Package 5G Max Speed plan 12 Months commitment",
+          "name": "12Months",
+          "@type": "OrderTerm",
+          "duration": {
+            "amount": 12,
+            "units": "month",
+            // "@type": "Duration"
+          }
+        }
+      ],
+      "product": {
+        "isBundle": false,
+        // "@type": "Product",
+        "productSpecification": {
+          "id": "14395",
+          "href": "https://host:port/productCatalogManagement/v5/productSpecification/14395",
+          // "name": "TMF Tariff plan",
+          "version": "1"
+          // "@type": "ProductSpecificationRef"
+        }
+      },
+      "productOffering": {
+        "id": "1",
+        // "href": "https://host:port/productCatalogManagement/v5/productOffering/1",
+        "name": "Package 5G Max Speed 699 Baht",
+        // "@type": "ProductOfferingRef"
+      },
+      "state": "completed",
+      // "@type": "ProductOrderItem"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "ff55-hjy4",
+      // "href": "https://host:port/partyRoleManagement/v5/customer/ff55-hjy4",
+      "name": "Jean Pontus"
+      // "@type": "RelatedParty",
+      // "@referredType": "Customer"
+    }
+  ],
+  "state": "completed",
+  "@type": "ProductOrder"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1",
+  // "href": "http://serverlocation:port/catalogManagement/productOfferingPrice/1",
+  // "@type": "ProdOfferPriceCharge",
+  // "@schemaLocation": "http://serverlocation:port/catalogManagement/schema/ProdOfferPriceC\nharge.yml",
+  // "@baseType": "",
+  "lastUpdate": "2017-04-19T16:42:23.0Z",
+  "name": "Recurring Monthly Price for Package 5G Max Speed 699 Baht",
+  "description": "monthly price",
+  "isBundle": false,
+  "lifecycleStatus": "Active",
+  "validFor": {
+    "startDateTime": "2017-04-19T16:42:23.0Z",
+    "endDateTime": "2018-06-19T00:00:00.0Z"
+  },
+  "priceType": "recurring",
+  "unitOfMeasure": {
+    "amount": 1,
+    "units": "Month"
+  },
+  "recurringChargePeriodType": "monthly",
+  "recurringChargePeriodLength": 1,
+  "percentage": 0.0,
+        "price": {
+          "dutyFreeAmount": {
+            "unit": "THB",
+            "value": 699
+          },
+          "taxIncludedAmount": {
+            "unit": "THB",
+            "value": 747.93
+          },
+          "taxCategory": "VAT",
+          "taxRate": 7.0
+          // "@type": "ProductPriceValue",
+          // "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductPriceValue.schema.json"
+        },
+  "bundledPopRelationship": [
+
+  ],
+  "productOfferingTerm": [
+    {
+      "name": "12 Month",
+      "description": "12 month contract",
+      // "@type": "ProductOfferingTerm",
+      // "@schemaLocation": "http://serverlocation:port/catalogManagement/schema\n/ProductOfferingTerm.yml",
+      "duration": {
+        "amount": 12,
+        "units": "Month"
+      },
+      "validFor": {
+        "startDateTime": "2017-04-19T16:42:23.0Z",
+        "endDateTime": "2017-06-19T00:00:00.0Z"
+      }
+    }
+  ]
+}

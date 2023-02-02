@@ -1,0 +1,75 @@
+{
+  "id": "1",
+  "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/1",
+  "name": "Quota for Package 5G Max Speed 699 Baht",
+  "brand": "AIS",
+  "description": "",
+  "isBundle": false,
+  "lastUpdate": "2020-09-23T16:42:23.0Z",
+  "lifecycleStatus": "Active",
+  "validFor": {
+    "startDateTime": "2020-09-23T00:00:00.0Z",
+    "endDateTime": "2022-11-24T16:42:23.0Z"
+  },
+  "productSpecCharacteristic": [
+    {
+      "name": "timeOfVoice",
+      "description": "Net 5G/4G at maximum speed",
+      "valueType": "number",
+      "configurable": true,
+      "minCardinality": 1,
+      "maxCardinality": 1,
+      "isUnique": true,
+      "@type": "ProductSpecificationCharacteristic",
+      "@baseType": "",
+      "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Product/ProductSpecificationCharacteristic.schema.json",
+      "productSpecCharacteristicValue": [
+        {
+          "isDefault": true,
+          "unitOfMeasure": "GB",
+          "valueType": "number",
+          "validFor": {
+            "startDateTime": "2020-09-23T00:00:00Z",
+            "endDateTime": "2022-11-24T00:00:00Z"
+          },
+          "value": 50
+        }
+      ],
+      "validFor": {
+        "startDateTime": "2020-09-23T16:42:23.0Z"
+      }
+    },
+    {
+      "name": "volumeOfData",
+      "description": "Net 5G/4G at maximum speed",
+      "valueType": "string",
+      "configurable": true,
+      "minCardinality": 1,
+      "maxCardinality": 1,
+      "extensible": true,
+      "isUnique": true,
+      "@type": "ProductSpecificationCharacteristic",
+      "@baseType": "",
+      "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Product/ProductSpecificationCharacteristic.schema.json",
+      "productSpecCharacteristicValue": [
+        {
+          "isDefault": true,
+          "unitOfMeasure": "minute",
+          "valueType": "string",
+          "validFor": {
+            "startDateTime": "2020-09-23T00:00:00Z",
+            "endDateTime": "2022-11-24T00:00:00Z"
+          },
+          "value": 1000000
+        }
+        
+      ],
+      "validFor": {
+        "startDateTime": "2020-09-23T16:42:23.0Z"
+      }
+    }
+  ],
+  "@type": "ProductSpecification",
+  "@baseType": "",
+  "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecification.schema.json"
+}

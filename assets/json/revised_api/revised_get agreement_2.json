@@ -1,0 +1,67 @@
+  {
+    // "@type": "Agreement",
+    "href": "https://host:port/tmf-api/agreementManagement/v4/agreement/1",
+    "id": "1",
+    "description": "This agreement ...",
+    "name": "Prorate Agreement",
+    "initialDate": "2015-10-16T00:00Z",
+    "completionDate": "2018-11-25T00:00Z",
+    "agreementPeriod": {
+      "startDateTime": "2018-04-20T00:00",
+      "endDateTime": "2018-11-20T00:00"
+    },
+    "TORO_productNotice":"Prorate.....",
+    "documentNumber": 2,
+    "statementOfIntent": "Agreement on minimum prices",
+    "status": "process",
+    "agreementType": "commercial",
+    // "version": "1.5",
+    "agreementItem": [
+      {
+        "productOffering": [
+          {
+            "@typr": "ProductOffering",
+            // "href": "https://host:port/tmf-api/productCatalogManagement/v4/productOffering/1",
+            "id": "1",
+            "name": "Package 5G Max Speed 699 Baht"
+          }
+        ],
+        "termOrCondition": [
+          {
+            "description": "This agreement term or condition pro rate ...",
+            "id": "2",
+            "validFor": {
+              "startDateTime": "2018-04-25T00:00",
+              "endDateTime": "2018-11-20T00:00"
+            }
+          }
+        ]
+      }
+    ],
+    // "agreementAuthorization": [
+    //   {
+    //     "date": "2018-04-24T00:00Z",
+    //     "signatureRepresentation": "Arakin",
+    //     "state": "approved"
+    //   }
+    // ],
+    "engagedParty" : [
+      {
+        "id": 1,
+        "name": "N",
+        "@referredTyp": "Customer"
+      }
+    ],
+    "characteristic": [
+      [
+        {
+          "name": "country",
+          "value": "Thai"
+        },
+        {
+          "name": "confidentialLevel",
+          "value": "high"
+        }
+      ]
+    ]
+  }

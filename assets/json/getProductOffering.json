@@ -1,0 +1,67 @@
+{
+    "id": "1",
+    "name": "Package 5G Max Speed 699 Baht",
+    "description": "5G Max Speed monthly fee 699B. Call AIS Network....",
+    "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": "2021-08-25T00:00:00Z"
+    },
+    "lastUpdate": "2020-09-27T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "isBundle": false,
+    "isSellable": true,
+    "productSpecification": {
+        "id": "1",
+        "name": "Quota for Package 5G Max Speed 699 Baht"
+    },
+    "channel": [
+        {
+            "id": "1",
+            "name": "Online Channel"
+        }
+    ],
+    "category": [
+        {
+            "id": "2",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/category/2",
+            "name": "5G Max Speed",
+            "@referredType": "Category",
+            "@type": "CategoryRef",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/CategoryRef.schema.json"
+        }
+    ],
+    "productOfferingTerm": [
+        {
+            "name": "New Client Condition",
+            "description": "This product offering term is for new client at fix duration of less than a year",
+            "duration": {
+                "amount": 12,
+                "units": "Month"
+            },
+            "validFor": {
+                "startDateTime": "2020-09-23T00:00:00Z",
+                "endDateTime": "2021-09-23T00:00:00Z"
+            }
+        }
+    ],
+    "productOfferingPrice": [
+        {
+            "id": "1",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOfferingPrice/1",
+            "name": "Recurring Monthly Price for Package 5G Max Speed 699 Baht"
+        }
+    ],
+    "agreement": [
+        {
+            "id": "1",
+            "href": "https://mycsp.com:8080/tmf-api/agreementManagement/v4/agreement/1",
+            "name": "Term & Condition"
+        },
+        {
+            "id": "2",
+            "href": "https://mycsp.com:8080/tmf-api/agreementManagement/v4/agreement/2",
+            "name": "Pro rate Term & Condition"
+        }
+    ]
+}

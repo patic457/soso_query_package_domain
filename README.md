@@ -71,3 +71,19 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## Product Package API
+
+getCatalog
+https://patic457.000webhostapp.com/api/getcatalog.php
+
+getCategory
+https://patic457.000webhostapp.com/api/getcategory.php
+
+getProductOffering
+https://patic457.000webhostapp.com/api/getproductoffering.php
+
+getAgreement
+https://patic457.000webhostapp.com/api/getagreement.php
+

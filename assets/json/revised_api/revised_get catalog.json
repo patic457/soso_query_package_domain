@@ -1,0 +1,36 @@
+{
+  "id": "1",
+  // "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/Catalog/1",
+  "name": "Main Pack",
+  "description": "",
+  "catalogType": "DomesticPackageCatalog",
+  "validFor": {
+    "startDateTime": "2020-08-29T00:00:00Z",
+    "endDateTime": "2024-03-25T00:00:00Z"
+  },
+  "lastUpdate": "2020-08-27T00:00:00Z",
+  "lifecycleStatus": "Active",
+  "category": [
+    {
+      // "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/category/1",
+      "id": "1",
+      "name": "Talk&Net Plan",
+      "version": "1.0"
+      // "@referredType": "Category",
+      // "@type": "CategoryRef",
+      // "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Category.schema.json"
+    },
+    {
+      // "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/category/2",
+      "id": "2",
+      "name": "Talk Plan",
+      "version": "1.0"
+      // "@referredType": "Category",
+      // "@type": "CategoryRef",
+      // "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Category.schema.json"
+    }
+  ],
+  // "@type": "Catalog",
+  // "@baseType": "",
+  // "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Catalog.schema.json"
+}

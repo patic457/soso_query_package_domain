@@ -1,0 +1,73 @@
+{
+  "id": "abhg-985",
+  "href": "https://host:port/productInventoryManagement/product/abhg-985",
+  "description": "product description",
+  "isBundle": true,
+  "isCustomerVisible": true,
+  "name": "Package 5G Max Speed 699 Baht for Jean",
+  "startDate": "2017-11-01T09:37:29.961Z",
+  "status": "Active",
+  "@baseType": "product",
+  "@type": "product",
+  "@schemaLocation": "https:://host:port/standardProduct.json",
+  // "billingAccount": {
+  //   "id": "BA1236",
+  //   "href": "https....",
+  //   "name": "Nice BA",
+  //   "@referredType": "billingAccount"
+  // },
+  "productOffering": {
+    "id": "1",
+    "href": "https....",
+    "name": "Package 5G Max Speed 699 Baht",
+    // "@referredType": "string"
+  },
+  "productTerm": [
+    {
+      "name": "12 Months Commitment",
+      "description": "12 Months Commitment",
+      "duration": {
+        "amount": 12,
+        "units": "Months"
+      },
+      "validFor": {
+        "startDateTime": "2017-11-01T09:37:29.961Z",
+        "endDateTime": "2018-12-31T00:00:00.000Z"
+      },
+      // "@type": "commercialCommitment"
+    }
+  ],
+  "productOrder": [
+    {
+      "id": "1023-98gh",
+      "href": "https...",
+      "orderItemId": "1",
+      "orderItemAction": "add"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "45hj-8888",
+      "href": "https...",
+      "name": "Jean",
+      "role": "buyer",
+      // "@referredType": "individual"
+    }
+  ],
+  "productPrice": [
+    {
+      "id": "jk54",
+      "name": "Package 5G Max Speed 699 Baht Monthly Fee",
+      "description": "Package 5G Max Speed 699 Baht Monthly Fee",
+      "priceType": "recurring",
+      "recurringChargePeriod": "Months",
+      "price": {
+        "taxIncludedAmount": {
+          "value": 747.93,
+          "unit": "THB"
+        },
+        "taxRate": 7
+      }
+    }
+  ]
+}

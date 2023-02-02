@@ -1,0 +1,26 @@
+{
+  "id": "1",
+  // "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/Category/1",
+  "name": "5G Max Speed",
+  "description": "",
+  "validFor": {
+    "startDateTime": "2020-08-24T00:00:00Z",
+    "endDateTime": "2024-03-25T00:00:00Z"
+  },
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-27T00:00:00Z",
+  "isRoot": false,
+  "productOffering": [
+   {
+     "id": "1",
+     "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/1",
+     "name": "Package 5G Max Speed 699 Baht",
+    //  "@referredType": "ProductOffering",
+    //  "@type": "ProductOfferingRef",
+    //  "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOfferingRef.schema.json"
+   }
+ ],
+  // "@type": "Category",
+  // "@baseType": "",
+  // "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Category.schema.json"
+}

@@ -1,0 +1,29 @@
+{
+    "id": "1",
+    "name": "Talk&Net Plan",
+    "description": "",
+    "validFor": {
+        "startDateTime": "2020-08-24T00:00:00Z",
+        "endDateTime": "2024-03-25T00:00:00Z"
+    },
+    "lifecycleStatus": "Active",
+    "lastUpdate": "2020-08-27T00:00:00Z",
+    "isRoot": true,
+    "subCategory": [
+        {
+            "id": "1",
+            "name": "5G Max Speed",
+            "version": "1.0"
+        },
+        {
+            "id": "2",
+            "name": "4G Max Speed",
+            "version": "1.0"
+        },
+        {
+            "id": "3",
+            "name": "Serenade 5G Max Speed Package",
+            "version": "1.0"
+        }
+    ]
+}
