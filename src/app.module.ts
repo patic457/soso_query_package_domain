@@ -7,9 +7,17 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { PackageGqlModule } from './package-gql/package-gql.module';
 
 @Module({
-  imports: [PackageDataServiceModule,PackageGqlModule],
+  imports: [
+    // PackageDataServiceModule,
+    // PackageGqlModule,
+    GraphQLModule.forRoot<ApolloDriverConfig>({
+      driver: ApolloDriver,
+      playground: true,
+      // autoSchemaFile: true
+    }),
+  ],
 
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }

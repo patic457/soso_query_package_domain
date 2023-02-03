@@ -8,7 +8,8 @@ import { PackageGqlModule } from 'src/package-gql/package-gql.module';
   imports: [
       GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
-      autoSchemaFile: true
+      playground: true,
+      // autoSchemaFile: true
     }),
      PackageGqlModule
     ],
